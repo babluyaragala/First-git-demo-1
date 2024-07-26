@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_type_Requirement__c</fullName>
+    <externalId>false</externalId>
+    <label>Product type Requirement</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Child plan</fullName>
+                <default>false</default>
+                <label>Child plan</label>
+            </value>
+            <value>
+                <fullName>Endowment type</fullName>
+                <default>false</default>
+                <label>Endowment type</label>
+            </value>
+            <value>
+                <fullName>Term Life</fullName>
+                <default>false</default>
+                <label>Term Life</label>
+            </value>
+            <value>
+                <fullName>Money Back</fullName>
+                <default>false</default>
+                <label>Money Back</label>
+            </value>
+            <value>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+                <label>Retirement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

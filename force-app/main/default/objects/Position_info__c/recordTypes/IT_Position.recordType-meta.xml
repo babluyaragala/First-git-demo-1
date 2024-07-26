@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IT_Position</fullName>
+    <active>true</active>
+    <label>IT Position</label>
+    <picklistValues>
+        <picklist>Functional_area__c</picklist>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed-Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filled-Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Position</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open-Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fulltime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,14 @@
+<apex:page controller="ShowWeatherDetailsController" Sidebar="true" setup="false" showHeader="true" tabStyle="lead">
+<apex:sectionHeader title="Weather ForeCast" subtitle="Weather Details" />>
+<apex:form >
+   <apex:pageBlock title="Weather ForeCast Details" >
+   <apex:pageBlockSection columns="3" collapsible="true">
+    <apex:inputtext label="Enter City Name: " html-placeholder="Enter City Name" />
+    <apex:commandButton value="Get Details !"/>>
+   
+   </apex:pageBlockSection>>
+   
+   </apex:pageBlock>>
+
+</apex:form>> 
+</apex:page>

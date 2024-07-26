@@ -1,0 +1,25 @@
+<apex:page setup="false" sidebar="true" rendered="true" tabStyle="lead">
+   <apex:sectionHeader title="Bablu" subtitle="Divej yadav" />>
+       
+         <apex:form >
+            <apex:pageBlock title="New Branch Information"> 
+            
+                <apex:pageblockSection title="Branch Information" columns="2" collapsible="true" >
+                </apex:pageblockSection>
+                
+                <apex:pageBlockSection title="Contact Details" columns="2" collapsible="true">
+                </apex:pageBlockSection>
+                
+                <apex:pageblockSection title="Address Information" columns="3" collapsible="true">
+                </apex:pageblockSection>
+                
+                <apex:pageBlockSection title="Additional Information" columns="2" collapsible="true">
+                </apex:pageBlockSection>
+                
+                <apex:pageBlockSection title="Description Information" columns="1" collapsible="true">
+                </apex:pageBlockSection>
+                
+            </apex:pageBlock>
+         </apex:form>
+
+</apex:page>

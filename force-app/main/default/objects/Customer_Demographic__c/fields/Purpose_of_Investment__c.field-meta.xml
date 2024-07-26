@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Purpose_of_Investment__c</fullName>
+    <externalId>false</externalId>
+    <label>Purpose of Investment</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Security &amp; Assurance</fullName>
+                <default>true</default>
+                <label>Security &amp; Assurance</label>
+            </value>
+            <value>
+                <fullName>Tax Savings</fullName>
+                <default>false</default>
+                <label>Tax Savings</label>
+            </value>
+            <value>
+                <fullName>Retirement plan</fullName>
+                <default>false</default>
+                <label>Retirement plan</label>
+            </value>
+            <value>
+                <fullName>Savings</fullName>
+                <default>false</default>
+                <label>Savings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

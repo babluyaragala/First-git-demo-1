@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>checking_minimum_pay</fullName>
+    <active>true</active>
+    <errorConditionFormula>Minimum_pay__c   &gt;  Max_pay__c</errorConditionFormula>
+    <errorMessage>Minimum pay should not exceed maximum pay.</errorMessage>
+</ValidationRule>
