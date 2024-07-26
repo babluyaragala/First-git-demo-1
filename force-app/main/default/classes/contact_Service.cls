@@ -4,4 +4,4 @@ public static void meth1()
 {
     system.debug('first update');
 }
-}
+*}
