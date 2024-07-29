@@ -22,13 +22,13 @@ public with sharing class Lead_Service {
                 throw new Lead_Exception('Existing lead record is null.');
             }
         } else {
-            List<Lead> newLead = new LeadFactory().insertLead(fname, lname, email);
-            if (newLead != null) {
-                System.debug('New lead created: ' + newLead);
-                unitOfWork.registerNew(newLead);
+            List<Lead> newlead = new LeadFactory().insertLead(fname, lname, email);
+            if (newlead != null) {
+                System.debug('New lead created: ' + newlead);
+                unitOfWork.registerNew(newlead);
                 unitOfWork.commitWork();
                 System.debug('New lead registered and committed.');
-                convertLead(newLead);
+                convertLead(newlead);
             } else {
                 throw new Lead_Exception('Failed to create a new lead.');
             }
@@ -36,7 +36,7 @@ public with sharing class Lead_Service {
     }
     private static void convertLead(List<Lead> leads) {
         if (leads != null && !leads.isEmpty()) {
-            Lead newLead = leads[0];
+            Lead newlead = leads[0];
             if (newLead != null) {
                 System.debug('Converting lead: ' + newLead);
                 Database.LeadConvert lc = new Database.LeadConvert();
