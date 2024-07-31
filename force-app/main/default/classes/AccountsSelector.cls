@@ -9,7 +9,8 @@ public class AccountsSelector extends fflib_SobjectSelector{
     }
     public List<Account>  Selectbyid(Set<id>  idset){
         return (List<Account>) SelectSobjectsbyid(idset);
-    }       
+    } 
+    /*
    public List<Account> selectContactswithAccount(Set<Id> accIds){
       fflib_QueryFactory query = newQueryFactory();
       query.setCondition('Id IN :accIds');
@@ -17,4 +18,5 @@ public class AccountsSelector extends fflib_SobjectSelector{
             addQueryFactorySubselect(query,'Contacts');
       return (List<Account>) Database.query(query.toSOQL());
    } 
+*/
 }

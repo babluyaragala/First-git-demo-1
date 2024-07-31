@@ -1,4 +1,5 @@
 public With Sharing class Account_Service{
+    /*
     public static void updateNumberOfContacts(Set<Id> accountIds){   
          AccountsSelector accountSelector = (AccountsSelector) Application.selector.newInstance(Account.SObjectType);    
          List<Account>  accrec = accountSelector.selectContactswithAccount(accountIds);    
@@ -10,4 +11,5 @@ public With Sharing class Account_Service{
              unitOfWork.commitWork();
         }
     }
+*/
 }
